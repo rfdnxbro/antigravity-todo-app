@@ -88,7 +88,7 @@ export const TodoItem = ({ todo, onToggle, onDelete, onUpdate }: TodoItemProps) 
                     <button
                         onClick={() => setIsEditing(true)}
                         className="p-2 text-gray-300 hover:text-slate-500 hover:bg-gray-50 rounded-lg transition-colors"
-                        aria-label="Edit"
+                        aria-label="編集"
                     >
                         <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
@@ -98,7 +98,7 @@ export const TodoItem = ({ todo, onToggle, onDelete, onUpdate }: TodoItemProps) 
                 <button
                     onClick={() => onDelete(todo.id)}
                     className="p-2 text-gray-300 hover:text-[#FF80B5] hover:bg-pink-50 rounded-lg transition-colors"
-                    aria-label="Delete"
+                    aria-label="削除"
                 >
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
