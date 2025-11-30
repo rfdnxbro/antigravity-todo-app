@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ポップなTODOアプリ",
-  description: "A pop and friendly todo app",
+  description: "ポップで楽しいTODOアプリ",
 };
 
 export default function RootLayout({

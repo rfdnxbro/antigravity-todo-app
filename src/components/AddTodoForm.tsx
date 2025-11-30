@@ -32,7 +32,7 @@ export const AddTodoForm = ({ onAdd }: AddTodoFormProps) => {
                     disabled={!text.trim()}
                     className="absolute right-3 top-3 bottom-3 px-6 bg-[#FF99C2] hover:bg-[#FF80B5] text-white rounded-xl font-bold tracking-wide disabled:opacity-50 disabled:cursor-not-allowed transition-all transform active:scale-95 shadow-sm hover:shadow-md"
                 >
-                    ADD
+                    追加
                 </button>
             </div>
         </form>

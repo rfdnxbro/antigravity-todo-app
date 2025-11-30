@@ -22,9 +22,9 @@ export default function Home() {
 
           <div className="mt-8">
             <div className="flex items-center justify-between mb-6 px-1">
-              <h2 className="text-xl font-bold text-slate-700">Tasks</h2>
+              <h2 className="text-xl font-bold text-slate-700">タスク</h2>
               <span className="bg-gray-100 text-gray-500 px-4 py-1.5 rounded-full text-xs font-bold tracking-wide">
-                {todos.filter(t => !t.completed).length} remaining
+                残り {todos.filter(t => !t.completed).length} 件
               </span>
             </div>
 
